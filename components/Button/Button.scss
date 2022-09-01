@@ -1,0 +1,10 @@
+
+@import "../../variables-css/variables.scss";
+
+.btn {
+    background-color: var(--secondary-bg-color);
+    color: var(--secondary-text-color);
+    font-size: var(--common-fs);
+    padding: var(--common-pading);
+    margin: var(--common-margin);
+}

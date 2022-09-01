@@ -1,8 +1,10 @@
 import { Component } from '../../core/Component';
 
-import './Button.scss';
+import productDb from '../../database/products.json';
 
-class Button extends Component {
+const PRODUCTS = productDb;
+
+class Products extends Component {
     constructor({ tagName, className, id, events, attrs, children, ...other }) {
         super({ tagName, className, id, events, attrs, children, ...other });
         if (!tagName) return;
@@ -16,4 +18,4 @@ class Button extends Component {
     }
 }
 
-export default Button;
+export default Products;

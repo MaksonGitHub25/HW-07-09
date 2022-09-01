@@ -5,9 +5,9 @@ export class Component {
         if (!tagName) return;
 
         this.tagName = tagName;
-        if (isArray(className)) this.className = className.join(' ');
-        if (id) this.id = id;
-        if (events) this.events = events;
-        if (attrs) this.attrs = attrs;
+        this.className = className;
+        this.id = id;
+        this.events = events;
+        this.attrs = attrs;
     }
 }
