@@ -13,6 +13,7 @@ class Button extends Component {
         this.events = events;
         this.attrs = attrs;
         this.children = children;
+        this.other = other;
     }
 }
 

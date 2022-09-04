@@ -7,25 +7,9 @@
 }
 
 #app {
+    display: flex;
     background-color: var(--main-bg-color);
-    height: 100vh;
     color : var(--main-text-color);
     font-size: var(--common-fs);
     font-family: var(--common-font-family);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-input {
-    padding: 20px;
-    margin: 2rem;
-}
-form {
-    display: flex;
-    justify-content: center;
-}
-
-.blue {
-    background-color: darkblue;
-    color : white
 }

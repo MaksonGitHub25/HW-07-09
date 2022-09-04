@@ -1,7 +1,14 @@
-import { isArray } from '../utils/isArray';
-
 export class Component {
-    constructor({ tagName, className, id, events, attrs, children, ...other }) {
+    constructor({
+        tagName,
+        className,
+        id,
+        events,
+        attrs,
+        textContent,
+        children,
+        ...other
+    }) {
         if (!tagName) return;
 
         this.tagName = tagName;
@@ -9,5 +16,8 @@ export class Component {
         this.id = id;
         this.events = events;
         this.attrs = attrs;
+        this.other = other;
+        this.textContent = textContent;
+        this.children = children;
     }
 }
