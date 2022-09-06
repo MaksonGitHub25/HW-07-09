@@ -2,7 +2,7 @@ import { Component } from '../../core/Component';
 
 import './Button.scss';
 
-class Button extends Component {
+export class Button extends Component {
     constructor({ tagName, className, id, events, attrs, children, ...other }) {
         super({ tagName, className, id, events, attrs, children, ...other });
         if (!tagName) return;
@@ -16,5 +16,3 @@ class Button extends Component {
         this.other = other;
     }
 }
-
-export default Button;

@@ -15,7 +15,6 @@ export const toNode = (parentNode, childNode) => {
         const children = childNode.children;
 
         children.forEach(child => {
-            console.log(element);
             element.innerHTML += child;
         });
     }

@@ -1,10 +1,16 @@
-
 @import "../../variables-css/variables.scss";
 
-.btn {
-    background-color: var(--secondary-bg-color);
-    color: var(--secondary-text-color);
-    font-size: var(--common-fs);
-    padding: var(--common-pading);
-    margin: var(--common-margin);
+.main_button {
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: .5rem 2rem;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    transition: 100ms linear;
+}
+
+.main_button:hover {
+    background-color: green;
+    color: white;
 }

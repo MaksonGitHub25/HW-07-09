@@ -1,0 +1,60 @@
+.form_wrapper {
+    padding: 3.7rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.input_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.photo_line {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 3.7rem 0;
+}
+
+.photo_line_title {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+}
+
+.photo_line_element_wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.photo_line_element {
+    padding: .7rem;
+    border-radius: 13px;
+    background-color: bisque;
+}
+
+.card_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.card_title {
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
